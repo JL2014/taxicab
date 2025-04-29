@@ -216,3 +216,7 @@ x'<sub>2</sub> = 552\
 x'<sub>1</sub> = 560
 
 T(2, 2) = 4104
+x<sub>1</sub> = 2\
+x<sub>2</sub> = 9\
+x'<sub>2</sub> = 15\
+x'<sub>1</sub> = 16
