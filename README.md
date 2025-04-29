@@ -220,3 +220,8 @@ x<sub>1</sub> = 2\
 x<sub>2</sub> = 9 = 3^2\
 x'<sub>2</sub> = 15 = 3 * 5\
 x'<sub>1</sub> = 16 = 2^4
+
+----
+
+if m² + mn + n² = 3a²b, then (m + ab²)³ + (bn + a)³ = (bm + a)³ + (n + ab²)³
+if m = 3, n = 0, a = 1, and b = 3, the equation yields 12³ + 1³ = 10³ + 9³ = 1729
