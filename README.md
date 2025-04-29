@@ -3,11 +3,12 @@
 **EN**\
 Refers to https://oeis.org/A011541 sequence.\
 See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf (or https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf) \
-Taxicab(n) - or T(n) - is the smallest number expressible as a sum of two positive cubes in n different ways.
+Taxicab(n) - or T(n) or T(n, 1) - is the smallest number expressible as a sum of two positive cubes in n different ways.
 
 **FR**\
 Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et x'<sub>i</sub>) de n façons, soit T(n) = x<sub>i</sub>^3 + x'<sub>i</sub>^3.\
 Ci-dessous, l'ensemble des solutions classées par ordre croissant des valeurs de x<sub>i</sub> et décroissant de n.
+SoitOn pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution primitive pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
 **Remarques**
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>1</sub>,x'<sub>1</sub>}) ont un rapport de **79** entre T(5) et T(6)
