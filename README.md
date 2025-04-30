@@ -226,8 +226,8 @@ x'<sub>1</sub> = 16 = 2^4
 if m² + mn + n² = 3a²b, then (m + ab²)³ + (bn + a)³ = (bm + a)³ + (n + ab²)³\
 if m = 3, n = 0, a = 1, and b = 3, the equation yields 12³ + 1³ = 10³ + 9³ = 1729
 
-On remarque des muliples de 11, 26 et 39 dans la colonne des a.
-On remarque des muliples de 30 dans la colonne des m et n.
+On remarque des muliples de 11, 26 et 39 dans la colonne des a.\
+On remarque des muliples de 30 dans la colonne des m et n.\
 (On va donc favoriser la recherche en prilivégiant des multiples de 30 pour n puis pour m)
 
 ```
