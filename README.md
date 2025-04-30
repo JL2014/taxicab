@@ -227,6 +227,7 @@ if m² + mn + n² = 3a²b, then (m + ab²)³ + (bn + a)³ = (bm + a)³ + (n + ab
 if m = 3, n = 0, a = 1, and b = 3, the equation yields 12³ + 1³ = 10³ + 9³ = 1729
 
 On remarque des muliples de 11, 26 et 39 dans la colonne des a.
+On remarque des muliples de 30 dans la colonne des m et n.
 
 ```
 m =    75, n =     0, a =   25, b =     3,         300^3 +        25^3 =       250^3 +         225^3 =                          27015625
