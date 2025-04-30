@@ -228,8 +228,8 @@ if m = 3, n = 0, a = 1, and b = 3, the equation yields 12³ + 1³ = 10³ + 9³ =
 
 On remarque des muliples de 11, 26 et 39 dans la colonne des a.\
 On remarque des muliples de 30 dans la colonne des m et n.\
-(On va donc favoriser la recherche en prilivégiant des multiples de 30 pour n puis pour m)\*
-En favorisant n multiple de 30, on observe parfois un rapport entre a et m.
+(On va donc favoriser la recherche en prilivégiant des multiples de 30 pour n puis pour m)\
+En favorisant n multiple de 30, on observe parfois un rapport entre a et m.\
 De même, en favorisant m multiple de 30, on observe parfois un rapport entre a et n.
 
 ```
