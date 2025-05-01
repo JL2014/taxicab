@@ -226,7 +226,7 @@ x'<sub>1</sub> = 16 = 2^4
 if m² + mn + n² = 3a²b, then (m + ab²)³ + (bn + a)³ = (bm + a)³ + (n + ab²)³\
 if m = 3, n = 0, a = 1, and b = 3, the equation yields 12³ + 1³ = 10³ + 9³ = 1729
 
-On notera x<ins>1</ins>³ + y<ins>1</ins>³ = x<ins>2</ins>³ + y<ins>2</ins>³
+On notera x<ins>1</ins>³ + y<ins>1</ins>³ = x<ins>2</ins>³ + y<ins>2</ins>³\
 On remarque des multiples de 11, 26 et 39 dans la colonne des a.\
 On remarque des multiples de 30 dans la colonne des m et n.\
 (On va donc favoriser la recherche en prilivégiant des multiples de 30 pour n puis pour m)\
@@ -337,9 +337,9 @@ m = 0, n = 1254600, a = 8200, b =  7803,  499271833800^3 +  9789652000^3 = 8200^
 m = 0, n =  680130, a = 2519, b = 24300, 1487444310000^3 + 16527161519^3 = 2519^3 + 1487444990130^3 = 3290961031580739843886591515979161359
 m = 0, n = 1342350, a = 5966, b = 16875, 1698911718750^3 + 22652162216^3 = 5966^3 + 1698913061100^3 = 4903582263777329965794930501479768696
 ```
-Avec m = 0, on observe:
-- davantage de a ou b avec une petite valeur
-- pluqieurs cas de la forme x<ins>1</ins>³ + y<ins>1</ins>³ = (10 * x<ins>1</ins>)³ + y<ins>2</ins>³
+Avec m = 0, on observe:\
+- davantage de a ou b avec une petite valeur\
+- plusieurs cas de la forme x<ins>1</ins>³ + y<ins>1</ins>³ = (10 * x<ins>1</ins>)³ + y<ins>2</ins>³
 ```
 m = 0, n =   777, a =   259, b =      3,         2331^3 +         2590^3 =          259^3 +          3108^3 =                            30039609691
 m = 0, n =   882, a =   294, b =      3,         2646^3 +         2940^3 =          294^3 +          3528^3 =                            43937666136
