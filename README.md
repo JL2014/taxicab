@@ -230,7 +230,8 @@ On remarque des muliples de 11, 26 et 39 dans la colonne des a.\
 On remarque des muliples de 30 dans la colonne des m et n.\
 (On va donc favoriser la recherche en prilivégiant des multiples de 30 pour n puis pour m)\
 En favorisant n multiple de 30, on observe parfois un rapport entre a et m.\
-De même, en favorisant m multiple de 30, on observe parfois un rapport entre a et n.
+De même, en favorisant m multiple de 30, on observe parfois un rapport entre a et n.\
+On observe davantage de résultats avec m = 0 et n multiple de 30.
 
 ```
 m =    75, n =     0, a =   25, b =     3,         300^3 +        25^3 =       250^3 +         225^3 =                          27015625
