@@ -344,9 +344,10 @@ Avec m = 0, on observe:
   - (9 * a)³ + (10 * a)³ = a³ + (12 * a)³   <=>   T(2)  <=>   **
 Avec m = 0 et a = 1, on observe:
 - (n^4 / 9)³ + (n^3 / 3 + 1)³ = 1³ + (n^4 / 9 + n)³  <=>  **** (n multiple de 3 et n >= 3)
-  - si n = 3 <=> T(2)
-  - si n = 6 <=> 144,  73, 1, 735 <=> on remarque une similitude avec ***
-  - si n = 9 <=> 729, 244, 1, 738
+  - si n = 3  <=> T(2)
+  - si n = 6  <=>  144,  73, 1,  735 <=> on remarque une similitude avec ***
+  - si n = 9  <=>  729, 244, 1,  738
+  - si n = 12 <=> 2304, 577, 1, 2316
   - ...
 ```
 m = 0, n =   777, a =   259, b =      3,          2331^3 +         2590^3 =          259^3 +          3108^3 =                             30039609691 **
