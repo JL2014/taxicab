@@ -345,7 +345,7 @@ Avec m = 0, on observe:
 Avec m = 0 et a = 1, on observe:
 - (n^4 / 9)³ + (n^3 / 3 + 1)³ = 1³ + (n^4 / 9 + n)³  <=>  **** (n multiple de 3 et n >= 3)
   - si n = 3 <=> T(2)
-  - si n = 6 <=> 144,  73, 1, 735
+  - si n = 6 <=> 144,  73, 1, 735 <=> on remarque une similitude avec ***
   - si n = 9 <=> 729, 244, 1, 738
   - ...
 ```
