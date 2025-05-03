@@ -341,7 +341,8 @@ Avec m = 0, on observe:
 - davantage de a ou b avec une petite valeur
 - plusieurs cas de la forme:
   - x<sub>1</sub>³ + (10 * a)³ = a³ + y<sub>2</sub>³
-  - (9 * a)³ + (10 * a)³ = a³ + (12 * a)³   <=>   T(2)  <=>   **\
+  - (9 * a)³ + (10 * a)³ = a³ + (12 * a)³   <=>   T(2)  <=>   **
+
 Avec m = 0 et a = 1, on observe:
 - (n^4 / 9)³ + (n^3 / 3 + 1)³ = 1³ + (n^4 / 9 + n)³  <=>  **** (n multiple de 3 et n >= 3)
   - si n = 3  <=> T(2)
