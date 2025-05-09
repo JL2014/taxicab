@@ -58,6 +58,7 @@ y<sub>4</sub> = 25060249943031303000 = 2^3 * 3^2 * 5^3 * 7 * 11 * 13^2 * 19 * 79
 y<sub>3</sub> = 25258892211726742296 = 2^3 * 3^2 * 7 * 13^2 * 17 * 19 * 79 * 97 * 109 * 1099181\
 y<sub>2</sub> = 25260575914339118080 = 2^10 * 5 * 7 * 13^2 * 17 * 79 * 97 * 109 * 139 * 2113\
 y<sub>1</sub> = 25260802402509788751 = 3^3 * 7 * 13^2 * 17 * 19 * 79 * 97 * 109 * 139 * 21089
+- x<sub>12</sub> et y<sub>12</sub> ne contiennent pas   7
 - x<sub>5</sub> et y<sub>5</sub> ne contiennent pas  13
 - x<sub>4</sub> et y<sub>4</sub> ne contiennent pas  17
 - x<sub>2</sub> et y<sub>2</sub> ne contiennent pas  19
