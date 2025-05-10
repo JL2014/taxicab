@@ -6,7 +6,7 @@ See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.co
 Taxicab(n) - or T(n) or T(n, 1) - is the smallest number expressible as a sum of two positive cubes in n different ways.
 
 **FR**\
-Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et y<sub>i</sub>) de n façons, soit T(n) = x<sub>i</sub>^3 + y<sub>i</sub>^3.\
+Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et y<sub>i</sub>) de n façons, soit T(n) = x<sub>i</sub>^3 + y<sub>i</sub>^3 (pour i allant de 1 à n).\
 Ci-dessous, l'ensemble des solutions classées par ordre croissant des valeurs de x<sub>i</sub> et décroissant de n.
 SoitOn pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution primitive pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
