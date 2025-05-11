@@ -15,7 +15,7 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>3</sub>,y<sub>3</sub>}) ont un rapport de **101** entre T(6) et T(7)
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>8</sub>,y<sub>8</sub>}) ont un rapport de **127** entre T(7) et T(8)
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>2</sub>,y<sub>2</sub>}) ont un rapport de **139** entre T(8) et T(9)
-- Les valeurs x<sub>i</sub> (sauf pour {x<sub>2</sub>,y<sub>2</sub>}) ont un rapport de **13 * 29** entre T(9) et T(10)
+- Les valeurs x<sub>i</sub> (sauf pour {x<sub>2</sub>,y<sub>2</sub>}) ont un rapport de **13 * 29** (377) entre T(9) et T(10)
 - ...
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>4</sub>,y<sub>4</sub>}) ont un rapport de **3 * 61** (183) entre T(12) et T(13)
 - ...
