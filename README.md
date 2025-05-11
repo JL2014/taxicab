@@ -18,6 +18,7 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>2</sub>,y<sub>2</sub>}) ont un rapport de **13 * 29** (377) entre T(9) et T(10)
 - ...
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>4</sub>,y<sub>4</sub>}) ont un rapport de **3 * 61** (183) entre T(12) et T(13)
+- Les valeurs x<sub>i</sub> (sauf pour {x<sub>6</sub>,y<sub>6</sub>}) ont un rapport de **397** entre T(13) et T(14)
 - ...
 - La valeur de x<sub>1</sub> pour T(n+1) est supérieure (ou égale pour T(2)) à celle de y<sub>1</sub> pour T(n)
 - Si on multiplie les x<sub>i</sub> de T(5) par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
