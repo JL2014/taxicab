@@ -1,6 +1,6 @@
 # Taxicab numbers and their prime factor decomposition
 
-**EN**\
+**[EN]**\
 Refers to https://oeis.org/A011541 sequence.\
 See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf (or https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf) \
 Taxicab(n) - or Ta(n) or T(n) or T(n, 1) or Taxicab(3, n, n) - is the smallest number expressible as a sum of two positive cubes in n different ways.
@@ -12,12 +12,12 @@ delta = 12s - 3r²\
 ​x = (3r + sqrt(delta)) / 6\
 y = (3r - sqrt(delta)) / 6
 
-**FR**\
+**[FR]**\
 Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et y<sub>i</sub>) de n façons, soit T(n) = x<sub>i</sub>^3 + y<sub>i</sub>^3 (pour i allant de 1 à n).\
 Ci-dessous, l'ensemble des solutions classées par ordre croissant des valeurs de x<sub>i</sub>puis y<sub>i</sub>, et décroissant de n.
 On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution primitive pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
-**Remarques**
+**[FR] Remarques**
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>1</sub>,y<sub>1</sub>}) ont un rapport de **79** entre T(5) et T(6)
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>3</sub>,y<sub>3</sub>}) ont un rapport de **101** entre T(6) et T(7)
 - Les valeurs x<sub>i</sub> (sauf pour {x<sub>8</sub>,y<sub>8</sub>}) ont un rapport de **127** entre T(7) et T(8)
