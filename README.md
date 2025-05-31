@@ -13,7 +13,7 @@ delta = 12s - 3r²\
 y = (3r - sqrt(delta)) / 6
 
 **[FR]**\
-Référence sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).
+Référence sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
 Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et y<sub>i</sub>) de n façons, soit T(n) = x<sub>i</sub>^3 + y<sub>i</sub>^3 (pour i allant de 1 à n).\
 Ci-dessous, l'ensemble des solutions classées par **ordre croissant des valeurs de x<sub>i</sub> puis y<sub>i</sub>**, et décroissant de n.
 On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution primitive pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
