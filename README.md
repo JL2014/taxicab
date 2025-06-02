@@ -16,25 +16,25 @@ Let x(n, i) and y(n, i) denote the i th x and y for T(n).
 
 **[FR]**\
 Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
-Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs (x<sub>i</sub> et y<sub>i</sub>) de n façons, soit T(n) = x<sub>i</sub>^3 + y<sub>i</sub>^3 (pour i allant de 1 à n).\
-Ci-dessous, l'ensemble des solutions classées par **ordre croissant des valeurs de x<sub>i</sub> puis y<sub>i</sub>**, et décroissant de n.
+Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs x<sub>(n, i)</sub> et y<sub>(n, i)</sub> de n façons, soit T(n) = x<sub>(n, i)</sub>^3 + y<sub>(n, i)</sub>^3 (pour i allant de 1 à n).\
+Ci-dessous, l'ensemble des solutions classées par **ordre croissant des valeurs de x<sub>(n, i)</sub> puis y<sub>(n, i)</sub>**, et décroissant de n.
 On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution primitive pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
 **[FR] Remarques**
-- Les valeurs x<sub>i</sub> (sauf pour {x<sub>1</sub>,y<sub>1</sub>}) ont un rapport de **79** entre T(5) et T(6)
-- Les valeurs x<sub>i</sub> (sauf pour {x<sub>3</sub>,y<sub>3</sub>}) ont un rapport de **101** entre T(6) et T(7)
-- Les valeurs x<sub>i</sub> (sauf pour {x<sub>8</sub>,y<sub>8</sub>}) ont un rapport de **127** entre T(7) et T(8)
-- Les valeurs x<sub>i</sub> (sauf pour {x<sub>2</sub>,y<sub>2</sub>}) ont un rapport de **139** entre T(8) et T(9)
-- Les valeurs x<sub>i</sub> (sauf pour {x<sub>2</sub>,y<sub>2</sub>}) ont un rapport de **13 * 29** (377) entre T(9) et T(10)
+- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 1) ont un rapport de **79** entre T(5) et T(6)
+- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 3) ont un rapport de **101** entre T(6) et T(7)
+- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 8) ont un rapport de **127** entre T(7) et T(8)
+- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 2) ont un rapport de **139** entre T(8) et T(9)
+- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 2) ont un rapport de **13 * 29** (377) entre T(9) et T(10)
 - ...
-- Les valeurs x<sub>i</sub> (sauf pour {x<sub>4</sub>,y<sub>4</sub>}) ont un rapport de **3 * 61** (183) entre T(12) et T(13)
-- Les valeurs x<sub>i</sub> (sauf pour {x<sub>6</sub>,y<sub>6</sub>}) ont un rapport de **397** entre T(13) et T(14)
+- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 4) ont un rapport de **3 * 61** (183) entre T(12) et T(13)
+- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 6) ont un rapport de **397** entre T(13) et T(14)
 - ...
 - La valeur de x<sub>1</sub> pour T(n+1) est supérieure (ou égale pour T(2)) à celle de y<sub>1</sub> pour T(n)
-- Si on multiplie les x<sub>i</sub> de T(5) par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
-- Certains x<sub>i</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
+- Si on multiplie les {x<sub>(5, i)</sub>, y<sub>(5, i)</sub>} par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
+- Certains x<sub>(n, i)</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
   - de même pour: {255,167}, {13322,2421}, {231518,38787}, {26590452,582162}
-- Sauf pour T(1), il y a plusieurs x<sub>i</sub> multiples de **3** mais on peut constater un couple de x<sub>i</sub> (espacés de 2 termes) multiples de **3** (et donc leur différence aussi): {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
+- Sauf pour T(1), il y a plusieurs x<sub>(n, i)</sub> multiples de **3** mais on peut constater un couple de x<sub>(n, i)</sub> (espacés de 2 termes) multiples de **3** (et donc leur différence aussi): {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
 
 **Decomposition**
 
@@ -44,18 +44,21 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
 - T(19) <= 89155799373431424956779039683208074195259067508030416952016859893056008200986665364956362114476625742414288155368000000000 = 2^12 * 3^9 * 5^9 * 7^4 * 13^6 * 17^3 * 19^3 * 31 * 37^4 * 43 * 61^3 * 73 * 79^3 * 97^3 * 109^3 * 139^3 * 157 * 181^3 * 397^3 * 457^3 * 503^3 * 521^3 * 607^3
 
   - z = (5^2 * 37 * 181 * 457 * 521) = 39863390225
-  - with T(16), x<sub>i</sub> * z and y<sub>i</sub> * z
+  - {x<sub>(19, i)</sub>, y<sub>(19, i)</sub>} = z * {x<sub>(16, i)</sub>, y<sub>(16, i)</sub>} (except for i=...)
 
 - T(18) <= 32704115261272222010108668321371490956498583891096244871994833214348230808345220932546725287574509356813791744000 = 2^12 * 3^9 * 5^3 * 7^4 * 13^6 * 17^3 * 19^3 * 31 * 37^4 * 43 * 61^3 * 73 * 79^3 * 97^3 * 109^3 * 139^3 * 157 * 181^3 * 397^3 * 503^3 * 607^3 * 4261^3
 
-  - previous x<sub>i</sub> * (6697) and y<sub>i</sub> * (6697)
+  - z = (37 * 181) = 6697
+  - {x<sub>(18, i)</sub>, y<sub>(18, i)</sub>} = z * {x<sub>(17, i)</sub>, y<sub>(17, i)</sub>} (except for i=...)
 
 - T(17) <= 108883358434560363503260016942467566965657808716401027019007732065428469239764403684536752685040128000 = 2^12 * 3^9 * 5^3 * 7^4 * 13^6 * 17^3 * 19^3 * 31 * 37 * 43 * 61^3 * 73 * 79^3 * 97^3 * 109^3 * 139^3 * 157 * 397^3 * 503^3 * 607^3 * 4261^3
 
-  - previous x<sub>i</sub> * (4261) and y<sub>i</sub> * (4261)
+  - {x<sub>(17, i)</sub>, y<sub>(17, i)</sub>} = 4261 * {x<sub>(16, i)</sub>, y<sub>(16, i)</sub>} (except for i=...)
 
 - T(16) <= 1407430328457240141244921568479580896498768360005757901394557724136294559835243494681088000 = 2^12 * 3^9 * 5^3 * 7^4 * 13^6 * 17^3 * 19^3 * 31 * 37 * 43 * 61^3 * 73 * 79^3 * 97^3 * 109^3 * 139^3 * 157 * 397^3 * 503^3 * 607^3
-  - previous x<sub>i</sub> * (607 * 2) and y<sub>i</sub> * (607 * 2)
+
+  - z = (607 * 2) = 1214
+  - {x<sub>(16, i)</sub>, y<sub>(16, i)</sub>} = z * {x<sub>(15, i)</sub>, y<sub>(15, i)</sub>} (except for i=12)
 
 x<sub>(16, 1)</sub> =  12983809746198214825639659558 = 2 * 3^3 * 7 * 13^2 * 17 * 19 * 61 * 79 * 97 * 109 * 139 * 397 * 503 * 607 * 733\
 x<sub>(16, 2)</sub> =  34212462466785910602205681680 = 2^4 * 3 * 5 * 7 * 13^2 * 17 * 23 * 61 * 79 * 97 * 109 * 139 * 359 * 397 * 503 * 607\
@@ -93,7 +96,7 @@ y<sub>(16, 1)</sub> = 1120663971640821906376186004442 = 2 * 3^4 * 7 * 13^2 * 17 
 
 - T(15) <= 786630615595626829796137755567437844038832146564530660386728812791938555036352000 = 2^9 * 3^9 * 5^3 * 7^4 * 13^6 * 17^3 * 19^3 * 31 * 37 * 43 * 61^3 * 73 * 79^3 * 97^3 * 109^3 * 139^3 * 157 * 397^3 * 503^3
 
-  - previous x<sub>i</sub> * 503 and y<sub>i</sub> * 503
+  - {x<sub>(15, i)</sub>, y<sub>(15, i)</sub>} = z * {x<sub>(14, i)</sub>, y<sub>(14, i)</sub>} (except for i=4)
 
 x<sub>(15, 1)</sub> =  10695065688795893596078797 = 3^3 * 7 * 13^2 * 17 * 19 * 61 * 79 * 97 * 109 * 139 * 397 * 503 * 733\
 x<sub>(15, 2)</sub> =  28181600055013105932624120 = 2^3 * 3 * 5 * 7 * 13^2 * 17 * 23 * 61 * 79 * 97 * 109 * 139 * 359 * 397 * 503\
@@ -129,7 +132,7 @@ y<sub>(15, 1)</sub> = 923116945338403547262097203 = 3^4 * 7 * 13^2 * 17 * 19 * 6
 
 - T(14) <= 6181115942163278484307116174514304039670628856329988877227399275142976000 = 2^9 * 3^9 * 5^3 * 7^4 * 13^6 * 17^3 * 19^3 * 31 * 37 * 43 * 61^3 * 73 * 79^3 * 97^3 * 109^3 * 139^3 * 157 * 397^3
 
-  - previous x<sub>i</sub> * 397 and y<sub>i</sub> * 397
+  - {x<sub>(14, i)</sub>, y<sub>(14, i)</sub>} = 397 * {x<sub>(13, i)</sub>, y<sub>(13, i)</sub>} (except for i=6)
 
 x<sub>(14, 1)</sub> =   21262556041343724843099 = 3^3 * 7 * 13^2 * 17 * 19 * 61 * 79 * 97 * 109 * 139 * 397 * 733\
 x<sub>(14, 2)</sub> =   56027037882729832868040 = 2^3 * 3 * 5 * 7 * 13^2 * 17 * 23 * 61 * 79 * 97 * 109 * 139 * 359 * 397\
@@ -163,7 +166,7 @@ y<sub>(14, 1)</sub> = 1835222555344738662548901 = 3^4 * 7 * 13^2 * 17 * 19 * 61 
 
 - T(13) <= 98785992977316717572070208794037178343163969803121800608526912000 = 2^9 * 3^9 * 5^3 * 7^4 * 13^6 * 17^3 * 19^3 * 31 * 37 * 43 * 61^3 * 73 * 79^3 * 97^3 * 109^3 * 139^3 * 157
 
-  - previous x<sub>i</sub> * 183 and y<sub>i</sub> * 183
+  - {x<sub>(13, i)</sub>, y<sub>(13, i)</sub>} = 183 * {x<sub>(12, i)</sub>, y<sub>(12, i)</sub>} (except for i=4)
 
 x<sub>(13, 1)</sub> =   53558075670890994567 = 3^3 * 7 * 13^2 * 17 * 19 * 61 * 79 * 97 * 109 * 139 * 733\
 x<sub>(13, 2)</sub> =  141126040006876153320 = 2^3 * 3 * 5 * 7 * 13^2 * 17 * 23 * 61 * 79 * 97 * 109 * 139 * 359\
@@ -258,7 +261,9 @@ y<sub>(11, 1)</sub> = 443171971973855943 = 3^2 * 7 * 13^2 * 17 * 79 * 97 * 109 *
 
 - T(10) <= 7335345315241855602572782233444632535674275447104 = **2^6** * **3^3** * **7^4** * 13^4 * **19** * 29^3 * **43** * **73** * **79^3** * **97** * **101^3** * **127^3** * **139^3** * **157**
 
-  - x<sub>2</sub> et y<sub>2</sub> ne contiennent pas  13 *  29
+  - z = (13 * 29) = 377
+  - {x<sub>(10, i)</sub>, y<sub>(10, i)</sub>} = z * {x<sub>(9, i)</sub>, y<sub>(9, i)</sub>} (except for i=2)
+  - x<sub>2</sub> et y<sub>2</sub> ne contiennent pas  13 * 29
   - x<sub>3</sub> et y<sub>3</sub> ne contiennent pas 139
   - x<sub>5</sub> et y<sub>5</sub> ne contiennent pas 101
 
@@ -286,6 +291,8 @@ y<sub>(10, 1)</sub> = 19429979328281886 = **2** * **3** * **7** * 13 * 29 * **10
 
 - T(9) <= 136897813798023990395783317207361432493888 = **2^6** * **3^3** * **7^4** * **13** * **19** * **43** * **73** * **79^3** * **97** * **101^3** * **127^3** * 139^3 * **157**
 
+  - {x<sub>(9, i)</sub>, y<sub>(9, i)</sub>} = 139 * {x<sub>(8, i)</sub>, y<sub>(8, i)</sub>} (except for i=2)
+
 x<sub>(9, 1)</sub> = 1037967484386 = **2** * **3** * **7** * **83** * **101** * **127** * 139 * **167**\
 x<sub>(9, 2)</sub> = 4076877805588 = <ins>2^2 * 7 * 79 * 101 * 127 * 143687</ins>\
 x<sub>(9, 3)</sub> = 5463276442869 = **3** * **7** * **79** * **101** * **127** * 139 * **1847**\
@@ -308,6 +315,8 @@ y<sub>(9, 1)</sub> = 51538406706318 = **2** * **3** * **7** * **101** * **127** 
 
 - T(8) <= 50974398750539071400590819921724352 = **2^6** * **3^3** * **7^4** * **13** * **19** * **43** * **73** * **79^3** * **97** * **101^3** * 127^3 * **157**
 
+  - {x<sub>(8, i)</sub>, y<sub>(8, i)</sub>} = 127 * {x<sub>(7, i)</sub>, y<sub>(7, i)</sub>} (except for i=8)
+
 x<sub>(8, 1)</sub> = 7467391974 = **2** * **3** * **7** * **83** * **101** * 127 * **167**\
 x<sub>(8, 2)</sub> = 39304147071 = **3** * **7** * **79** * **101** * 127 * **1847**\
 x<sub>(8, 3)</sub> = 58360453256 = **2^3** * **7** * 127 * **8205913**\
@@ -328,6 +337,8 @@ y<sub>(8, 1)</sub> = 370779904362 = **2** * **3** * **7** * **101** * 127 * **31
 
 - T(7) <= 24885189317885898975235988544 = **2^6** * **3^3** * **7^4** * **13** * **19** * **43** * **73** * **79^3** * **97** * 101^3 * **157**
 
+  - {x<sub>(7, i)</sub>, y<sub>(7, i)</sub>} = 101 * {x<sub>(6, i)</sub>, y<sub>(6, i)</sub>} (except for i=3)
+
 x<sub>(7, 1)</sub> = 58798362 = **2** * **3** * **7** * **83** * 101 * **167**\
 x<sub>(7, 2)</sub> = 309481473 = **3** * **7** * **79** * 101 * **1847**\
 x<sub>(7, 3)</sub> = <ins>459531128 = 2^3 * 7 * 8205913</ins>\
@@ -345,6 +356,8 @@ y<sub>(7, 2)</sub> = 2918375103 = **3** * **7** * **79** * 101 * **17417**\
 y<sub>(7, 1)</sub> = 2919526806 = **2** * **3** * **7** * 101 * **311** * **2213**
 
 - T(6) = 24153319581254312065344 = **2^6** * **3^3** * **7^4** * **13** * **19** * **43** * **73** * 79^3 * **97** * **157**
+
+  - {x<sub>(6, i)</sub>, y<sub>(6, i)</sub>} = 79 * {x<sub>(5, i)</sub>, y<sub>(5, i)</sub>} (except for i=1)
 
 x<sub>(6, 1)</sub> = <ins>582162 = 2 * 3 * 7 * 83 * 167</ins>\
 x<sub>(6, 2)</sub> = 3064173 = **3** * **7** * 79 * **1847**\
