@@ -189,10 +189,10 @@ y<sub>(13, 1)</sub> = 4622726839659291341433 = 3^4 * 7 * 13^2 * 17 * 19 * 61 * 7
 
 - T(12) <= 16119148654034302034428760115512552827992287460693283776000 = **2^9** * 3^6 * **5^3** * **7^4** * **13^6** * **17^3** * 19^3 * **31** * **37** * **43** * **73** * **79^3** * **97^3** * **109^3** * **139^3** * **157**
 
-  - x<sub>12</sub> et y<sub>12</sub> ne contiennent pas   7
-  - x<sub>5</sub> et y<sub>5</sub> ne contiennent pas  13
-  - x<sub>4</sub> et y<sub>4</sub> ne contiennent pas  17
-  - x<sub>2</sub> et y<sub>2</sub> ne contiennent pas  19
+  - {x<sub>(12, 12)</sub>, y<sub>(12, 12)</sub>} ne contiennent pas   7
+  - {x<sub>(12, 5)</sub>, y<sub>(12, 5)</sub>} ne contiennent pas  13
+  - {x<sub>(12, 4)</sub>, y<sub>(12, 4)</sub>} ne contiennent pas  17
+  - {x<sub>(12, 2)</sub>, y<sub>(12, 2)</sub>} ne contiennent pas  19
 
 x<sub>(12, 1)</sub> = 292667080168803249 = 3^2 * 7 * 13^2 * 17 * 19 * 79 * 97 * 109 * 139 * 733\
 x<sub>(12, 2)</sub> = 771180546485662040 = <ins>2^3 * 5 * 7 * 13^2 * 17 * 23 * 79 * 97 * 109 * 139 * 359</ins>\
@@ -222,9 +222,9 @@ y<sub>(12, 1)</sub> = 25260802402509788751 = 3^3 * 7 * 13^2 * 17 * 19 * 79 * 97 
 
 - T(11) <= 87039729655193781808322993393446581825405320183232000 = 2^9 * **3^3** * 5^3 * **7^4** * 13^6 * 17^3 * 31 * 37 * **43** * **73** * **79^3** * 97^3 * 109^3 * **139^3** * **157**
 
-  - x<sub>11</sub> et y<sub>11</sub> ne contiennent pas   7
-  - x<sub>4</sub> et y<sub>4</sub> ne contiennent pas  13
-  - x<sub>3</sub> et y<sub>3</sub> ne contiennent pas  17
+  - {x<sub>(11, 11)</sub>, y<sub>(11, 11)</sub>} ne contiennent pas   7
+  - {x<sub>(11, 4)</sub>, y<sub>(11, 4)</sub>} ne contiennent pas  13
+  - {x<sub>(11, 3)</sub>, y<sub>(11, 3)</sub>} ne contiennent pas  17
 
 x<sub>(11, 1)</sub> = 5134510178400057 = 3 * 7 * 13^2 * 17 * 79 * 97 * 109 * 139 * 733\
 x<sub>(11, 2)</sub> = 27089483598685872 = 2^4 * 3^3 * 7 * 13^2 * 17 * 79 * 97 * 109 * 3733\
@@ -254,9 +254,9 @@ y<sub>(11, 1)</sub> = 443171971973855943 = 3^2 * 7 * 13^2 * 17 * 79 * 97 * 109 *
 
   - z = (13 * 29) = 377
   - {x<sub>(10, i)</sub>, y<sub>(10, i)</sub>} = z * {x<sub>(9, i)</sub>, y<sub>(9, i)</sub>} (except for i=2)
-  - x<sub>2</sub> et y<sub>2</sub> ne contiennent pas  13 * 29
-  - x<sub>3</sub> et y<sub>3</sub> ne contiennent pas 139
-  - x<sub>5</sub> et y<sub>5</sub> ne contiennent pas 101
+  - {x<sub>2</sub>, y<sub>2</sub>} ne contiennent pas  13 * 29
+  - {x<sub>3</sub>, y<sub>3</sub>} ne contiennent pas 139
+  - {x<sub>5</sub>, y<sub>5</sub>} ne contiennent pas 101
 
 x<sub>(10, 1)</sub> = 391313741613522 = **2** * **3** * **7** * 13 * 29 * **83** * **101** * **127** * **139** * **167**\
 x<sub>(10, 2)</sub> = 904069333568884 = <ins>2^2 * 7 * 79 * 101 * 139 * 29112563</ins>\
