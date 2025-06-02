@@ -21,16 +21,7 @@ Ci-dessous, l'ensemble des solutions classées par **ordre croissant des valeurs
 On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution primitive pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
 **[FR] Remarques**
-- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 1) ont un rapport de **79** entre T(5) et T(6)
-- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 3) ont un rapport de **101** entre T(6) et T(7)
-- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 8) ont un rapport de **127** entre T(7) et T(8)
-- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 2) ont un rapport de **139** entre T(8) et T(9)
-- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 2) ont un rapport de **13 * 29** (377) entre T(9) et T(10)
-- ...
-- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 4) ont un rapport de **3 * 61** (183) entre T(12) et T(13)
-- Les valeurs {x<sub>(n, i)</sub>, y<sub>(n, i)</sub>} (sauf pour i = 6) ont un rapport de **397** entre T(13) et T(14)
-- ...
-- La valeur de x<sub>1</sub> pour T(n+1) est supérieure (ou égale pour T(2)) à celle de y<sub>1</sub> pour T(n)
+- La valeur de x<sub>(n+1, 1)</sub> est supérieure (ou égale pour n=1)) à celle de y<sub>(n, 1)</sub>
 - Si on multiplie les {x<sub>(5, i)</sub>, y<sub>(5, i)</sub>} par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
 - Certains x<sub>(n, i)</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
   - de même pour: {255,167}, {13322,2421}, {231518,38787}, {26590452,582162}
