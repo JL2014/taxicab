@@ -52,24 +52,6 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
 
   - {x<sub>(17, i)</sub>, y<sub>(17, i)</sub>} = 4261 * {x<sub>(16, i)</sub>, y<sub>(16, i)</sub>} (except for i=...)
 
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-       ==  +  (and delta is ok)
-
 x<sub>(17, 1)</sub> =    55324013328550593372050589376638
 x<sub>(17, 2)</sub> =   145779302570974765075998409638480
 x<sub>(17, 3)</sub> =   180417564553222468182755425431960
