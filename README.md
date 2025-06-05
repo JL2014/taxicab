@@ -2,7 +2,8 @@
 
 **[EN]**\
 Refers to https://oeis.org/A011541 sequence.\
-See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf (or https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf) \
+See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf (or https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf)
+
 Taxicab(n) - or Ta(n) or T(n) or T(n, 1) or Taxicab(3, n, n) - is the smallest number expressible as a sum of two positive cubes in n different ways.
 
 T(n) = r * s, with r < s\
