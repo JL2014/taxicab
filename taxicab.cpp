@@ -180,7 +180,7 @@ int main()
   }; // taxicab_delta
 
   fmpz_t N, r, s, rs, x, y, x3, y3, x3y3, tmp1, tmp2, tmp3, known_delta, delta, rootdelta;
-  for (unsigned short index = 22; index <= 22; ++index)
+  for (unsigned short index = 1; index <= 22; ++index)
   {
     string str = taxicab[index];
     cout << "Ta(" << setw(2) << index << ") ";
