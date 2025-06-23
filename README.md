@@ -19,10 +19,10 @@ Let x(n, i) and y(n, i) denote the i th x and y for T(n).
 Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
 Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs x<sub>(n, i)</sub> et y<sub>(n, i)</sub> de n façons, soit T(n) = x<sub>(n, i)</sub>^3 + y<sub>(n, i)</sub>^3 (pour i allant de 1 à n).\
 Ci-dessous, l'ensemble des solutions classées par **ordre croissant des valeurs de x<sub>(n, i)</sub> puis y<sub>(n, i)</sub>**, et décroissant de n.
-On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution primitive pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
+On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution non-primitive (avec k > 1) pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
 **[FR] Remarques**
-- La valeur de x<sub>(n+1, 1)</sub> est supérieure (ou égale pour n=1)) à celle de y<sub>(n, 1)</sub>
+- La valeur de x<sub>(n+1, 1)</sub> est supérieure (ou égale pour n=1) à celle de y<sub>(n, 1)</sub>
 - Si on multiplie les {x<sub>(5, i)</sub>, y<sub>(5, i)</sub>} par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
 - Certains x<sub>(n, i)</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
   - de même pour: {255,167}, {13322,2421}, {231518,38787}, {26590452,582162}
