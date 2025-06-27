@@ -18,7 +18,7 @@ Let x(n, i) and y(n, i) denote the i th x and y for T(n).
 **[FR]**\
 Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
 Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs x<sub>(n, i)</sub> et y<sub>(n, i)</sub> de n façons, soit T(n) = x<sub>(n, i)</sub>^3 + y<sub>(n, i)</sub>^3 (pour i allant de 1 à n).\
-Ci-dessous, l'ensemble des solutions classées par **ordre croissant des valeurs de x<sub>(n, i)</sub> puis y<sub>(n, i)</sub>**, et décroissant de n.
+Ci-dessous, l'ensemble des solutions classées par ordre décroissant de T(n) et par **ordre croissant des valeurs de x<sub>(n, i)</sub> puis y<sub>(n, i)</sub>**.
 On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution non-primitive (avec k > 1) pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
 **[FR] Remarques**
