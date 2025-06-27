@@ -7,7 +7,7 @@ See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.co
 Taxicab(n) - or Ta(n) or T(n) or T(n, 1) or Taxicab(3, n, n) - is the smallest number expressible as a sum of two positive cubes in n different ways.
 
 T(n) = r * s, with r < s\
-r = x + y\
+r = x + y, with x > y\
 s = x² - xy + y²\
 delta = 12s - 3r²\
 ​x = (3r + sqrt(delta)) / 6\
