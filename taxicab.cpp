@@ -21,7 +21,7 @@ bool is_perfect_square(const fmpz_t n, fmpz_t root)
 
 int main()
 {
-  // Taxicab(n) = N = r * s = x(1)³ + y(1)³ [= ... = x(n)³ + y(n)³]
+  // Taxicab(n) = N = r * s = x[n][1]³ + y[n][1]³ (= ... = x[n][n]³ + y[n][n]³)
   map<unsigned short, string> taxicab;
   map<unsigned short, map<unsigned short, string>> taxicab_delta;
   map<unsigned short, map<unsigned short, string>> taxicab_r;
