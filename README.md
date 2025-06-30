@@ -6,8 +6,7 @@ See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.co
 (or archive at https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf)
 
 Taxicab(n) - or Ta(n) or T(n) or T(n, 1) or Taxicab(**3**, n, n) - is the smallest number expressible as a sum of two positive **cubes** in n different ways.
-
-For n > 6, actually T(n) is an <ins>upper bound<ins> as described in Boyer's paper or is Bta(n) as described in OEIS sequence.
+For n > 6, as described in Boyer's paper, there is an <ins>upper bound<ins> list, Bta(n) as described in OEIS sequence.
 
 > T(n) = r * s, with r < s\
  r = x + y, with x < y\
@@ -18,7 +17,7 @@ For n > 6, actually T(n) is an <ins>upper bound<ins> as described in Boyer's pap
 
 Let x(n, i) and y(n, i) denote the i th x and y for T(n).
 
-**Decomposition**
+**Decomposition of Ta(n) or BTa(n)**
 
 [source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all x,y values with r,s and delta components for checking matches.\
 [text output of the program execution](https://github.com/JL2014/taxicab/blob/main/taxicab.txt) shows if values are correct.\
@@ -26,9 +25,8 @@ Let x(n, i) and y(n, i) denote the i th x and y for T(n).
 
 **[French]**\
 Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
-Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs x<sub>(n, i)</sub> et y<sub>(n, i)</sub> de n façons, soit T(n) = x<sub>(n, i)</sub>^3 + y<sub>(n, i)</sub>^3 (pour i allant de 1 à n).\
-Ci-dessous, l'ensemble des solutions classées par ordre décroissant de T(n) et par **ordre croissant des valeurs de x<sub>(n, i)</sub> puis y<sub>(n, i)</sub>**.\
-Pour n > 6, BTa(n) indique la limite supérieure.\
+Le plus petit nombre Ta(n) qui est la somme de 2 cubes entiers positifs x<sub>(n, i)</sub> et y<sub>(n, i)</sub> de n façons, soit Ta(n) = x<sub>(n, i)</sub>^3 + y<sub>(n, i)</sub>^3 (pour i allant de 1 à n).\
+Pour n > 6, BTa(n) indique la limite supérieure de Ta(n).\
 On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution non-primitive (avec k > 1) pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
 **[French] Remarques**
