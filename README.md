@@ -1,17 +1,20 @@
-# Taxicab numbers and their prime factor decomposition
+# Taxicab numbers, upper bounds and their decomposition
 
 **[EN]**\
 Refers to https://oeis.org/A011541 sequence.\
-See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf (or https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf)
+See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf 
+(or archive at https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf)
 
 Taxicab(n) - or Ta(n) or T(n) or T(n, 1) or Taxicab(**3**, n, n) - is the smallest number expressible as a sum of two positive **cubes** in n different ways.
 
-T(n) = r * s, with r < s\
-r = x + y, with x < y\
-s = x² - xy + y²\
-delta = 12s - 3r²\
-​x = (3r - sqrt(delta)) / 6\
-y = (3r + sqrt(delta)) / 6
+For n > 6, actually T(n) is an <ins>upper bound<ins> as described in Boyer's paper or is Bta(n) as described in OEIS sequence.
+
+> T(n) = r * s, with r < s\
+ r = x + y, with x < y\
+ s = x² - xy + y²\
+ delta = 12s - 3r²\
+ x = (3r - sqrt(delta)) / 6\
+ y = (3r + sqrt(delta)) / 6
 
 Let x(n, i) and y(n, i) denote the i th x and y for T(n).
 
@@ -20,9 +23,6 @@ Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
 Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs x<sub>(n, i)</sub> et y<sub>(n, i)</sub> de n façons, soit T(n) = x<sub>(n, i)</sub>^3 + y<sub>(n, i)</sub>^3 (pour i allant de 1 à n).\
 Ci-dessous, l'ensemble des solutions classées par ordre décroissant de T(n) et par **ordre croissant des valeurs de x<sub>(n, i)</sub> puis y<sub>(n, i)</sub>**.
 On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution non-primitive (avec k > 1) pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
-
-The [source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all x,y values with r,s and delta components.
-The [text output of the program execution](https://github.com/JL2014/taxicab/blob/main/taxicab.txt) shows if values are correct.
 
 **[FR] Remarques**
 - La valeur de x<sub>(n+1, 1)</sub> est supérieure (ou égale pour n=1) à celle de y<sub>(n, 1)</sub>
@@ -33,20 +33,25 @@ The [text output of the program execution](https://github.com/JL2014/taxicab/blo
 
 **Decomposition**
 
-- T(22) <= 4680247859298792255465896583920257161776853980641720488623945439873944558056759119053262369879441902130153472288312996410513410535472957059046536164424000000000
+[source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all x,y values with r,s and delta components for checking matches.\
+[text output of the program execution](https://github.com/JL2014/taxicab/blob/main/taxicab.txt) shows if values are correct.\
+[taxicab_r.txt](https://github.com/JL2014/taxicab/blob/main/taxicab_r.txt) contains r values.
 
-- T(21) <= 108017480260055891349349434078007118409816211596074421874782013152781209964290521967447172971431469705047741717793222992124981940703226072000000000
 
-- T(20) <= 6897380753715950027554119762858815120976857451913869723850868496922922856256366585322070924221550029921862628606999892276808000000000
+- BTa(22) <= 4680247859298792255465896583920257161776853980641720488623945439873944558056759119053262369879441902130153472288312996410513410535472957059046536164424000000000
+
+- BTa(21) <= 108017480260055891349349434078007118409816211596074421874782013152781209964290521967447172971431469705047741717793222992124981940703226072000000000
+
+- BTa(20) <= 6897380753715950027554119762858815120976857451913869723850868496922922856256366585322070924221550029921862628606999892276808000000000
 
   - z = 5^2 * 457 * 521 = 5952425
   - {x<sub>(20, i)</sub>, y<sub>(20, i)</sub>} = z * {x<sub>(18, i)</sub>, y<sub>(18, i)</sub>} (except for i=...)
 
-- T(19) <= 89155799373431424956779039683208074195259067508030416952016859893056008200986665364956362114476625742414288155368000000000
+- BTa(19) <= 89155799373431424956779039683208074195259067508030416952016859893056008200986665364956362114476625742414288155368000000000
 
   - 
 
-- T(18) <= 32704115261272222010108668321371490956498583891096244871994833214348230808345220932546725287574509356813791744000
+- BTa(18) <= 32704115261272222010108668321371490956498583891096244871994833214348230808345220932546725287574509356813791744000
 
   - z = 37 * 181 = 6697
   - {x<sub>(18, i)</sub>, y<sub>(18, i)</sub>} = z * {x<sub>(17, i)</sub>, y<sub>(17, i)</sub>} (except for i=1)
@@ -89,7 +94,7 @@ y<sub>(18, 3)</sub>  = 31978887354590568973666566839082117120\
 y<sub>(18, 2)</sub>  = 31979174079632847732132614599318543314\
 y<sub>(18, 1)</sub>  = 31979181635633455436253370733558505168
 
-- T(17) <= 108883358434560363503260016942467566965657808716401027019007732065428469239764403684536752685040128000
+- BTa(17) <= 108883358434560363503260016942467566965657808716401027019007732065428469239764403684536752685040128000
 
   - {x<sub>(17, i)</sub>, y<sub>(17, i)</sub>} = 4261 * {x<sub>(16, i)</sub>, y<sub>(16, i)</sub>} (except for i=3)
 
@@ -129,7 +134,7 @@ y<sub>(17, 3)</sub> =  4775065806909870444573452049405480\
 y<sub>(17, 2)</sub> =  4775106369208685825543760913704960\
 y<sub>(17, 1)</sub> =  4775149183161542143068928564927362
 
-- T(16) <= 1407430328457240141244921568479580896498768360005757901394557724136294559835243494681088000
+- BTa(16) <= 1407430328457240141244921568479580896498768360005757901394557724136294559835243494681088000
 
   - z = 2 * 607 = 1214
   - {x<sub>(16, i)</sub>, y<sub>(16, i)</sub>} = z * {x<sub>(15, i)</sub>, y<sub>(15, i)</sub>} (except for i=12)
@@ -168,7 +173,7 @@ y<sub>(16, 3)</sub> =  1120579228410760938707503538832\
 y<sub>(16, 2)</sub> =  1120653923775800475368167311360\
 y<sub>(16, 1)</sub> =  1120663971640821906376186004442
 
-- T(15) <= 786630615595626829796137755567437844038832146564530660386728812791938555036352000
+- BTa(15) <= 786630615595626829796137755567437844038832146564530660386728812791938555036352000
 
   - {x<sub>(15, i)</sub>, y<sub>(15, i)</sub>} = 503 * {x<sub>(14, i)</sub>, y<sub>(14, i)</sub>} (except for i=4)
 
@@ -204,7 +209,7 @@ y<sub>(15, 3)</sub> =  923047140371302255936988088\
 y<sub>(15, 2)</sub> =  923108668678583587617930240\
 y<sub>(15, 1)</sub> =  923116945338403547262097203
 
-- T(14) <= 6181115942163278484307116174514304039670628856329988877227399275142976000
+- BTa(14) <= 6181115942163278484307116174514304039670628856329988877227399275142976000
 
   - {x<sub>(14, i)</sub>, y<sub>(14, i)</sub>} = 397 * {x<sub>(13, i)</sub>, y<sub>(13, i)</sub>} (except for i=6)
 
@@ -238,7 +243,7 @@ y<sub>(14, 3)</sub> =  1835083778074159554546696\
 y<sub>(14, 2)</sub> =  1835206100752651267630080\
 y<sub>(14, 1)</sub> =  1835222555344738662548901
 
-- T(13) <= 98785992977316717572070208794037178343163969803121800608526912000
+- BTa(13) <= 98785992977316717572070208794037178343163969803121800608526912000
 
   - z = 3 * 61 = 183
   - {x<sub>(13, i)</sub>, y<sub>(13, i)</sub>} = z * {x<sub>(12, i)</sub>, y<sub>(12, i)</sub>} (except for i=4)
@@ -271,7 +276,7 @@ y<sub>(13, 3)</sub> =  4622377274745993840168\
 y<sub>(13, 2)</sub> =  4622685392324058608640\
 y<sub>(13, 1)</sub> =  4622726839659291341433
 
-- T(12) <= 16119148654034302034428760115512552827992287460693283776000
+- BTa(12) <= 16119148654034302034428760115512552827992287460693283776000
 
   - z = 3 * 19 = 57
   - {x<sub>(12, i)</sub>, y<sub>(12, i)</sub>} = z * {x<sub>(11, i)</sub>, y<sub>(11, i)</sub>} (except for i=2)
@@ -305,7 +310,7 @@ y<sub>(12, 3)</sub> =  25258892211726742296\
 y<sub>(12, 2)</sub> =  25260575914339118080\
 y<sub>(12, 1)</sub> =  25260802402509788751
 
-- T(11) <= 87039729655193781808322993393446581825405320183232000
+- BTa(11) <= 87039729655193781808322993393446581825405320183232000
 
   - {x<sub>(11, 11)</sub>, y<sub>(11, 11)</sub>} ne contiennent pas   7
   - {x<sub>(11, 4)</sub>, y<sub>(11, 4)</sub>} ne contiennent pas  13
@@ -335,7 +340,7 @@ y<sub>(11, 3)</sub> =  439653507772479000\
 y<sub>(11, 2)</sub> =  443138459854855128\
 y<sub>(11, 1)</sub> =  443171971973855943
 
-- T(10) <= 7335345315241855602572782233444632535674275447104
+- BTa(10) <= 7335345315241855602572782233444632535674275447104
 
   - z = 13 * 29 = 377
   - {x<sub>(10, i)</sub>, y<sub>(10, i)</sub>} = z * {x<sub>(9, i)</sub>, y<sub>(9, i)</sub>} (except for i=2)
@@ -365,7 +370,7 @@ y<sub>(10, 3)</sub> =  19426825887781312\
 y<sub>(10, 2)</sub> =  19429379778270560\
 y<sub>(10, 1)</sub> =  19429979328281886
 
-- T(9) <= 136897813798023990395783317207361432493888
+- BTa(9) <= 136897813798023990395783317207361432493888
 
   - {x<sub>(9, i)</sub>, y<sub>(9, i)</sub>} = 139 * {x<sub>(8, i)</sub>, y<sub>(8, i)</sub>} (except for i=2)
 
@@ -389,7 +394,7 @@ y<sub>(9, 3)</sub> = 51518075693259\
 y<sub>(9, 2)</sub> = 51530042142656\
 y<sub>(9, 1)</sub> = 51538406706318
 
-- T(8) <= 50974398750539071400590819921724352
+- BTa(8) <= 50974398750539071400590819921724352
 
   - {x<sub>(8, i)</sub>, y<sub>(8, i)</sub>} = 127 * {x<sub>(7, i)</sub>, y<sub>(7, i)</sub>} (except for i=8)
 
@@ -411,7 +416,7 @@ y<sub>(8, 3)</sub> = 370298338396\
 y<sub>(8, 2)</sub> = 370633638081\
 y<sub>(8, 1)</sub> = 370779904362
 
-- T(7) <= 24885189317885898975235988544
+- BTa(7) <= 24885189317885898975235988544
 
   - {x<sub>(7, i)</sub>, y<sub>(7, i)</sub>} = 101 * {x<sub>(6, i)</sub>, y<sub>(6, i)</sub>} (except for i=3)
 
