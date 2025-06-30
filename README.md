@@ -21,6 +21,9 @@ Le plus petit nombre T(n) qui est la somme de 2 cubes entiers positifs x<sub>(n,
 Ci-dessous, l'ensemble des solutions classées par ordre décroissant de T(n) et par **ordre croissant des valeurs de x<sub>(n, i)</sub> puis y<sub>(n, i)</sub>**.
 On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution non-primitive (avec k > 1) pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
+The [source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all x,y values with r,s and delta components.
+The [text output of the program execution](https://github.com/JL2014/taxicab/blob/main/taxicab.txt) shows if values are correct.
+
 **[FR] Remarques**
 - La valeur de x<sub>(n+1, 1)</sub> est supérieure (ou égale pour n=1) à celle de y<sub>(n, 1)</sub>
 - Si on multiplie les {x<sub>(5, i)</sub>, y<sub>(5, i)</sub>} par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
