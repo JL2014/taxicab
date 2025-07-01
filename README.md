@@ -84,23 +84,23 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
 
   - z = 3 * 19 = 57
   - {x<sub>(12, i)</sub>, y<sub>(12, i)</sub>} = z * {x<sub>(11, i)</sub>, y<sub>(11, i)</sub>} (except for i=2)
-  - {x<sub>(12, 12)</sub>, y<sub>(12, 12)</sub>} ne contiennent pas   7
-  - {x<sub>(12, 5)</sub>, y<sub>(12, 5)</sub>} ne contiennent pas  13
-  - {x<sub>(12, 4)</sub>, y<sub>(12, 4)</sub>} ne contiennent pas  17
+  - {x<sub>(12, 12)</sub>, y<sub>(12, 12)</sub>} ​​do not contain   7
+  - {x<sub>(12, 5)</sub>, y<sub>(12, 5)</sub>} ​​do not contain  13
+  - {x<sub>(12, 4)</sub>, y<sub>(12, 4)</sub>} ​​do not contain  17
 
 - BTa(11) <= 87039729655193781808322993393446581825405320183232000
 
-  - {x<sub>(11, 11)</sub>, y<sub>(11, 11)</sub>} ne contiennent pas   7
-  - {x<sub>(11, 4)</sub>, y<sub>(11, 4)</sub>} ne contiennent pas  13
-  - {x<sub>(11, 3)</sub>, y<sub>(11, 3)</sub>} ne contiennent pas  17
+  - {x<sub>(11, 11)</sub>, y<sub>(11, 11)</sub>} ​​do not contain   7
+  - {x<sub>(11, 4)</sub>, y<sub>(11, 4)</sub>} ​​do not contain  13
+  - {x<sub>(11, 3)</sub>, y<sub>(11, 3)</sub>} ​​do not contain  17
 
 - BTa(10) <= 7335345315241855602572782233444632535674275447104
 
   - z = 13 * 29 = 377
   - {x<sub>(10, i)</sub>, y<sub>(10, i)</sub>} = z * {x<sub>(9, i)</sub>, y<sub>(9, i)</sub>} (except for i=2)
-  - {x<sub>2</sub>, y<sub>2</sub>} ne contiennent pas  13 * 29
-  - {x<sub>3</sub>, y<sub>3</sub>} ne contiennent pas 139
-  - {x<sub>5</sub>, y<sub>5</sub>} ne contiennent pas 101
+  - {x<sub>2</sub>, y<sub>2</sub>} ​​do not contain  13 * 29
+  - {x<sub>3</sub>, y<sub>3</sub>} ​​do not contain 139
+  - {x<sub>5</sub>, y<sub>5</sub>} ​​do not contain 101
 
 - BTa(9) <= 136897813798023990395783317207361432493888
 
