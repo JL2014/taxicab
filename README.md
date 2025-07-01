@@ -21,7 +21,8 @@ Let x(n, i) and y(n, i) denote the i th x and y for T(n).
 
 [source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all x,y values with r,s and delta components for checking matches.\
 [text output of the program execution](https://github.com/JL2014/taxicab/blob/main/taxicab.txt) shows if values are correct.\
-[taxicab_r.txt](https://github.com/JL2014/taxicab/blob/main/taxicab_r.txt) contains r values.
+[taxicab_x](https://github.com/JL2014/taxicab/blob/main/taxicab_x.md) contains x values.
+[taxicab_r](https://github.com/JL2014/taxicab/blob/main/taxicab_r.txt) contains r values.
 
 **[French]**\
 Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
