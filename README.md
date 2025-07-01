@@ -24,6 +24,7 @@ Let x(n, i) and y(n, i) denote the i th x and y for Ta(n).
 [taxicab_x](https://github.com/JL2014/taxicab/blob/main/taxicab_x.md) contains x values.\
 [taxicab_y](https://github.com/JL2014/taxicab/blob/main/taxicab_y.md) contains y values.\
 [taxicab_r](https://github.com/JL2014/taxicab/blob/main/taxicab_r.txt) contains r values.
+[taxicab_s](https://github.com/JL2014/taxicab/blob/main/taxicab_s.txt) contains s values.
 
 **[French]**\
 Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
