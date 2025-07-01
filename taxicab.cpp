@@ -185,19 +185,18 @@ int main()
   for (unsigned short index = 1; index <= 22; ++index)
   {
     string str = taxicab[index];
-    cout << "Ta(" << setw(2) << index << ") ";
     if (index < 7)
-      cout << "=";
+      cout << " Ta(" << setw(2) << index << ") == " << str << endl;
     else
-      cout << "<";
-    cout << "= " << str << endl; // " = r * s = x(n)³ + y(n)³" << endl;
+      cout << "BTa(" << setw(2) << index << ") <= " << str << endl;
+
     for (unsigned short i = 1; i <= index; ++i)
     {
       fmpz_set_str(N, str.c_str(), 10);
       fmpz_set_str(r, taxicab_r[index][i].c_str(), 10);
       fmpz_set_str(s, taxicab_s[index][i].c_str(), 10);
       fmpz_mul(rs, r, s);
-      cout << "      ";
+      cout << "       ";
       if (fmpz_cmp(N, rs) == 0)
         cout << " == ";
       else
