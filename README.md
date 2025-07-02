@@ -1,6 +1,6 @@
 # Taxicab numbers, upper bounds and their decomposition
 
-**[English]**\
+**[English] Introduction**\
 Refers to https://oeis.org/A011541 sequence.\
 See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf 
 (or archive at https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf)
@@ -17,7 +17,7 @@ For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> lis
 
 Let x(n, i) and y(n, i) denote the i th x and y for BTa(n) or Ta(n).
 
-**Decomposition of Ta(n) or BTa(n)**
+**[English] Decomposition of Ta(n) or BTa(n)**
 
 * [source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all x,y values with r,s and delta components for checking matches
 * [text output of the program execution](https://github.com/JL2014/taxicab/blob/main/taxicab.txt) shows if values are correct
@@ -39,6 +39,12 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
   - de même pour: {255,167}, {13322,2421}, {231518,38787}, {26590452,582162}
 - Sauf pour T(1), il y a plusieurs x<sub>(n, i)</sub> multiples de **3** mais on peut constater un couple de x<sub>(n, i)</sub> (espacés de 2 termes) multiples de **3** (et donc leur différence aussi): {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
 
+**[English] Relationships**
+
+- BTa(23) <= 505624992450102221744244678441689845434887715317085055675501100061664233777550644179891369792998312033624027623507268993575520089167244066787797454194149200985506392000000000
+
+  - z = 97 * 491
+  - BTa(23) = z^3 * BTa(22)
 
 - BTa(22) <= 4680247859298792255465896583920257161776853980641720488623945439873944558056759119053262369879441902130153472288312996410513410535472957059046536164424000000000
 
@@ -115,6 +121,7 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
 - BTa(10) <= 7335345315241855602572782233444632535674275447104
 
   - z = 13 * 29 = 377
+  - BTa(10) = z^3 * BTa(9)
   - {x<sub>(10, i)</sub>, y<sub>(10, i)</sub>} = z * {x<sub>(9, i)</sub>, y<sub>(9, i)</sub>} (except for i=2)
   - {x<sub>2</sub>, y<sub>2</sub>} ​​do not contain 13 * 29
   - {x<sub>3</sub>, y<sub>3</sub>} ​​do not contain 139
@@ -124,19 +131,25 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
 
   - z = 139
   - BTa(9) = z^3 * BTa(8)
-  - {x<sub>(9, i)</sub>, y<sub>(9, i)</sub>} = 139 * {x<sub>(8, i)</sub>, y<sub>(8, i)</sub>} (except for i=2)
+  - {x<sub>(9, i)</sub>, y<sub>(9, i)</sub>} = z * {x<sub>(8, i)</sub>, y<sub>(8, i)</sub>} (except for i=2)
 
 - BTa(8) <= 50974398750539071400590819921724352
 
-  - {x<sub>(8, i)</sub>, y<sub>(8, i)</sub>} = 127 * {x<sub>(7, i)</sub>, y<sub>(7, i)</sub>} (except for i=8)
+  - z = 127
+  - BTa(8) = z^3 * BTa(7)
+  - {x<sub>(8, i)</sub>, y<sub>(8, i)</sub>} = z * {x<sub>(7, i)</sub>, y<sub>(7, i)</sub>} (except for i=8)
 
 - BTa(7) <= 24885189317885898975235988544
 
-  - {x<sub>(7, i)</sub>, y<sub>(7, i)</sub>} = 101 * {x<sub>(6, i)</sub>, y<sub>(6, i)</sub>} (except for i=3)
+  - z = 101
+  - BTa(7) = z^3 * BTa(6)
+  - {x<sub>(7, i)</sub>, y<sub>(7, i)</sub>} = z * {x<sub>(6, i)</sub>, y<sub>(6, i)</sub>} (except for i=3)
 
 - Ta(6) = 24153319581254312065344
 
-  - {x<sub>(6, i)</sub>, y<sub>(6, i)</sub>} = 79 * {x<sub>(5, i)</sub>, y<sub>(5, i)</sub>} (except for i=1)
+  - z = 79
+  - BTa(6) = z^3 * BTa(5)
+  - {x<sub>(6, i)</sub>, y<sub>(6, i)</sub>} = z * {x<sub>(5, i)</sub>, y<sub>(5, i)</sub>} (except for i=1)
 
 - Ta(5) = 48988659276962496
 
