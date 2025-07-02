@@ -61,7 +61,7 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
 
   - z = 5^2 * 457 * 521 = 5952425
   - BTa(20) = z^3 * BTa(18)
-  - {x<sub>(20, i)</sub>, y<sub>(20, i)</sub>} = z * {x<sub>(18, i)</sub>, y<sub>(18, i)</sub>} (except for i=...)
+  - {x<sub>(20, i)</sub>, y<sub>(20, i)</sub>} = z * {x<sub>(18, i)</sub>, y<sub>(18, i)</sub>} (except for i=14)
 
 - BTa(19) <= 89155799373431424956779039683208074195259067508030416952016859893056008200986665364956362114476625742414288155368000000000
 
