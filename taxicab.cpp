@@ -198,10 +198,21 @@ int main()
     for (unsigned short i = 1; i <= index; ++i)
     {
       fmpz_set_str(N, str.c_str(), 10);
+      fmpz_set_str(x, taxicab_x[index][i].c_str(), 10);
+      fmpz_set_str(y, taxicab_y[index][i].c_str(), 10);
+      fmpz_pow_ui(x3, x, 3);
+      fmpz_pow_ui(y3, y, 3);
+      fmpz_add(x3y3, x3, y3);
+      cout << "       ";
+      if (fmpz_cmp(N, x3y3) == 0)
+        cout << " == ";
+      else
+        cout << " != ";
+      cout << fmpz_get_str(NULL, 10, x) << "³ + " << fmpz_get_str(NULL, 10, y) << "³";
+
       fmpz_set_str(r, taxicab_r[index][i].c_str(), 10);
       fmpz_set_str(s, taxicab_s[index][i].c_str(), 10);
       fmpz_mul(rs, r, s);
-      cout << "       ";
       if (fmpz_cmp(N, rs) == 0)
         cout << " == ";
       else
@@ -209,17 +220,6 @@ int main()
       cout << fmpz_get_str(NULL, 10, r);
       cout << " * ";
       cout << fmpz_get_str(NULL, 10, s);
-
-      fmpz_set_str(x, taxicab_x[index][i].c_str(), 10);
-      fmpz_set_str(y, taxicab_y[index][i].c_str(), 10);
-      fmpz_pow_ui(x3, x, 3);
-      fmpz_pow_ui(y3, y, 3);
-      fmpz_add(x3y3, x3, y3);
-      if (fmpz_cmp(N, x3y3) == 0)
-        cout << " == ";
-      else
-        cout << " != ";
-      cout << fmpz_get_str(NULL, 10, x) << "³ + " << fmpz_get_str(NULL, 10, y) << "³";
 
       fmpz_mul_ui(tmp1, s, 12);
       fmpz_mul(tmp2, r, r);
