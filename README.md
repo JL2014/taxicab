@@ -18,16 +18,11 @@ For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> lis
 Let x(n, i) and y(n, i) denote the i th x and y for BTa(n) or Ta(n).
 
 and maybe if at least x or y is odd:
-> w = (x + y - 1) / 2\
-v = y - w\
-Ta(n) = (v - w - 1)³ + (v + w)³
+> w = (y + x + 1) / 2\
+v = (y - x - 1) / 2 = y - w\
+Ta(n) = (w - v - 1)³ + (v + w)³
 
-and if x and y are even
-> w = (x + y) / 2\
-v = y - w\
-Ta(n) = (v - w)³ + (v + w)³
-
-and if x and y are odd
+else (if x and y are even or are odd)
 > w = (x + y) / 2\
 v = y - w\
 Ta(n) = (w - v)³ + (w + v)³
