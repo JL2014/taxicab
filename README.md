@@ -157,6 +157,8 @@ On pourra également utiliser la notation T(n, k) pour la k-ième plus petite so
 
 - Ta(3) = 87539319
 
+  -  Ta(3) = (302 - 134 -1)³ + (302 + 134)³
+
 - Ta(2) = 1729
 
 - Ta(1) = 2
