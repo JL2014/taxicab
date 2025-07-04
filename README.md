@@ -21,10 +21,12 @@ and maybe if at least x or y is odd:
 > w = (x + y - 1) / 2\
 v = y - w\
 Ta(n) = (v - w - 1)³ + (v + w)³
+
 and if x and y are even
 > w = (x + y) / 2\
 v = y - w\
 Ta(n) = (v - w)³ + (v + w)³
+
 and if x and y are odd
 > w = (x + y) / 2\
 v = y - w\
