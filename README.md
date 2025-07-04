@@ -8,7 +8,7 @@ See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.co
 Taxicab(n) - or Ta(n) or T(n) or T(n, 1) or Taxicab(**3**, n, n) - is the smallest number expressible as a sum of two positive **cubes** in n different ways.\
 For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> list, as Bta(n) described in OEIS sequence.
 
-> BTa(n) >= Ta(n) = r * s, with r < s\
+> Ta(n) <= BTa(n) = r * s, with r < s\
  r = x + y, with x < y\
  s = x² - xy + y²\
  delta = 12s - 3r²\
