@@ -24,7 +24,7 @@ Ta(n) <= BTa(n) = (w - v - 1)³ + (v + w)³
 
 else (if x and y are even or are odd)
 > w = (x + y) / 2\
-v = y - w\
+v = (y - x) / 2 = y - w\
 Ta(n) <= BTa(n) = (w - v)³ + (w + v)³
 
 **[English] Decomposition of Ta(n) or BTa(n)**
