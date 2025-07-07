@@ -23,7 +23,7 @@ if x or y is odd (but not both):
 v = (y - x - 1) / 2 = y - w = (sqrt(delta) - 1) / 6\
 Ta(n) <= BTa(n) = (w - v - 1)³ + (v + w)³
 
-else (if x and y are even or are odd)
+else (if x and y are both even or are both odd)
 > w = (x + y) / 2 = r / 2\
 v = (y - x) / 2 = y - w = sqrt(delta) / 6\
 Ta(n) <= BTa(n) = (w - v)³ + (v + w)³
