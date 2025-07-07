@@ -20,12 +20,12 @@ Let x(n, i) and y(n, i) denote the i th x and y for BTa(n) or Ta(n).
 
 if x or y is odd (but not both):
 > w = (y + x + 1) / 2 = (r + 1) / 2\
-v = (y - x - 1) / 2 = y - w\
+v = (y - x - 1) / 2 = y - w = (sqrt(delta) - 1) / 6\
 Ta(n) <= BTa(n) = (w - v - 1)³ + (v + w)³
 
 else (if x and y are even or are odd)
 > w = (x + y) / 2 = r / 2\
-v = (y - x) / 2 = y - w\
+v = (y - x) / 2 = y - w = sqrt(delta) / 6\
 Ta(n) <= BTa(n) = (w - v)³ + (v + w)³
 
 **[English] Decomposition of Ta(n) or BTa(n)**
