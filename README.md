@@ -13,7 +13,8 @@ For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> lis
  s = x² - xy + y²\
  delta = 12s - 3r²\
  x = (3r - sqrt(delta)) / 6\
- y = (3r + sqrt(delta)) / 6
+ y = (3r + sqrt(delta)) / 6\
+ sqrt(delta) = 3 * (y - x)
 
 Let x(n, i) and y(n, i) denote the i th x and y for BTa(n) or Ta(n).
 
