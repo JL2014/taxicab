@@ -1,0 +1,9 @@
+m² + mn + n² = 3a²b, then (m + ab²)³ + (bn + a)³ = (bm + a)³ + (n + ab²)³
+
+v = m + ab²
+w = bn + a
+x = bm + a
+y = n + ab²
+
+Ta( 3) == 87539319
+  a = 39, b = 3, m = 63, n = 72 <=> v = 414, w = 255, x = 228, y = 423
