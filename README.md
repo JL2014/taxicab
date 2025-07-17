@@ -16,7 +16,7 @@ For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> lis
  y = (3r + sqrt(delta)) / 6\
  sqrt(delta) = 3 * (y - x)
 
-Note that s can also be written by: s = (y - x)² + x * y
+Note that s can also be written by: s = (y - x)² + x * y\
 then for each {x,y}, Ta(n) = sum * ( (diff)² + product ).
 
 Let x(n, i) and y(n, i) denote the i th x and y for BTa(n) or Ta(n).
