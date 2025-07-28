@@ -1,4 +1,4 @@
-xn - x1
+x<sub>n</sub> - x<sub>1</sub>
 
  Ta( 2)
         9 - 1 = 8
