@@ -11,7 +11,7 @@ For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> lis
 > Ta(n) <= BTa(n) = r * s, with r < s\
  r = x + y, with x < y\
  s = x² - xy + y² = x² + y * (y - x)\
- delta = 12s - 3r² = 3 * (y - x)\
+ delta = 12s - 3r²
  x = (3r - sqrt(delta)) / 6\
  y = (3r + sqrt(delta)) / 6\
  sqrt(delta) = 3 * (y - x) = 3 * (s - x²) / y
