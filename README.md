@@ -10,11 +10,11 @@ For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> lis
 
 > Ta(n) <= BTa(n) = r * s, with r < s\
  r = x + y, with x < y\
- s = x² - xy + y²\
- delta = 12s - 3r²\
+ s = x² - xy + y² = x² + y * (y - x)\
+ delta = 12s - 3r² = 3 * (y - x)\
  x = (3r - sqrt(delta)) / 6\
  y = (3r + sqrt(delta)) / 6\
- sqrt(delta) = 3 * (y - x)
+ sqrt(delta) = 3 * (y - x) = 3 * (s - x²) / y
 
 Note that s can also be written: s = (y - x)² + x * y\
 then for each {x,y}, Ta(n) = sum * ( (diff)² + product ).
