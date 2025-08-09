@@ -16,11 +16,11 @@ Ta = r<sub>1</sub> * s<sub>n</sub> + r<sub>1</sub> * (a + c) / 3 + s<sub>n</sub>
         == 28272 * 246302784 => i = 3, a = 91334463, b = 6768, c = 13815060, d = 8448, (a + c) / 3 = 35049841, (b + d) / 3 = 5072, (b * c) / 3 = 31166775360\
         == 29952 * 232487724
 
-relations between Ta3 and Ta4 :\
- b<sub>ta3,2</sub> = 48\
+possibles relations between Ta3 and Ta4 :\
+ b<sub>ta3,2</sub> = 48, d<sub>ta3,2</sub> = 66\
  b<sub>ta4,2</sub> = 2880 = 48 * 60\
  b<sub>ta4,3</sub> = 6768 = 48 * 141\
- d<sub>ta4</sub> = 48 * 176
+ d<sub>ta4</sub> = 48 * 176 = 66 * 128
 
 Mod 3 = 0 for :\
  a + c = s<sub>1</sub> + s<sub>i</sub> - 2 * s<sub>n</sub>\
