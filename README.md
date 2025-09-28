@@ -33,8 +33,6 @@ else (if x and y are both even or are both odd)
 v = (y - x) / 2 = y - w = sqrt(delta_a) / 6\
 Ta(n) <= BTa(n) = (w - v)³ + (v + w)³
 
-s = w² + 3v²
-
 **[English] Decomposition of Ta(n) or BTa(n)**
 
 * [source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all x,y values with r,s and delta_a components for checking matches
