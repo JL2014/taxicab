@@ -9,7 +9,7 @@ Taxicab(n) - or Ta(n) or T(n) or T(n, 1) or Taxicab(**3**, n, n) - is the smalle
 For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> list, as Bta(n) described in OEIS sequence.
 
 > Ta(n) <= BTa(n) = r * s, with r < s\
- r = x + y, with x < y\
+ r = x + y = sqrt(3xy + s), with x < y\
  s = x² - xy + y² = x² + y * (y - x) = delta_b + xy\
  delta_a = 12s - 3r², delta_b = (4s - r²)/3, delta_a = 9 * delta_b\
  x = (3r - sqrt(delta_a)) / 6 = (r - sqrt(delta_b)) / 2\
