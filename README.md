@@ -10,11 +10,13 @@ For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> lis
 
 > Ta(n) <= BTa(n) = r * s, with r < s\
  r = x + y, with x < y\
- s = x² - xy + y² = x² + y * (y - x)\
- delta = 12s - 3r²\
- x = (3r - sqrt(delta)) / 6\
- y = (3r + sqrt(delta)) / 6\
- sqrt(delta) = 3 * (y - x) = 3 * (s - x²) / y
+ s = x² - xy + y² = x² + y * (y - x) = delta_b + xy\
+ delta_a = 12s - 3r², delta_b = (4s - r²)/3, delta_a = 9 * delta_b\
+ x = (3r - sqrt(delta_a)) / 6 = (r - sqrt(delta_b)) / 2\
+ y = (3r + sqrt(delta_a)) / 6 = (r + sqrt(delta_b)) / 2\
+ sqrt(delta_a) = 3 * (y - x) = 3 * (s - x²) / y\
+ xy = (r² - s) / 3\
+ y - x = sqrt(delta_a) / 3 = sqrt(delta_b)
 
 Note that s can also be written: s = (y - x)² + x * y\
 then for each {x,y}, Ta(n) = sum * ( (diff)² + product ).
@@ -23,17 +25,17 @@ Let x<sub>(n, i)</sub> and y<sub>(n, i)</sub> denote the i th x and y for BTa(n)
 
 If x or y is odd (but not both):
 > w = (y + x + 1) / 2 = (r + 1) / 2\
-v = (y - x - 1) / 2 = y - w = (sqrt(delta) - 1) / 6\
+v = (y - x - 1) / 2 = y - w = (sqrt(delta_a) - 1) / 6\
 Ta(n) <= BTa(n) = (w - v - 1)³ + (v + w)³
 
 else (if x and y are both even or are both odd)
 > w = (x + y) / 2 = r / 2\
-v = (y - x) / 2 = y - w = sqrt(delta) / 6\
+v = (y - x) / 2 = y - w = sqrt(delta_a) / 6\
 Ta(n) <= BTa(n) = (w - v)³ + (v + w)³
 
 **[English] Decomposition of Ta(n) or BTa(n)**
 
-* [source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all x,y values with r,s and delta components for checking matches
+* [source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all x,y values with r,s and delta_a components for checking matches
 * [text output of the program execution](https://github.com/JL2014/taxicab/blob/main/taxicab.txt) shows if values are correct
 * [taxicab_x](https://github.com/JL2014/taxicab/blob/main/taxicab_x.md) contains x values
 * [taxicab_y](https://github.com/JL2014/taxicab/blob/main/taxicab_y.md) contains y values
