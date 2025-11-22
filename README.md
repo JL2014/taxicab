@@ -1,5 +1,9 @@
 # Taxicab numbers, upper bounds and their decomposition
 
+For optimal display of file content on Github, uncheck "Wrap lines (under View options)" from the "... (More file actions)" menu.\
+Feel free to open an issue if you wish to discuss.\
+And add a ⭐ if you like 😉​.
+
 **[English] Introduction**\
 Refers to https://oeis.org/A011541 sequence.\
 See also http://www.christianboyer.com/taxicab/ and http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf 
