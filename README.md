@@ -1,6 +1,6 @@
 # Taxicab numbers, upper bounds and their decomposition
 
-For optimal display of file content on Github, uncheck "Wrap lines (under View options)" from the "... (More file actions)" menu.\
+For optimal display when display file content on Github, uncheck "Wrap lines (under View options)" from the "... (More file actions)" menu.\
 Feel free to open an issue if you wish to discuss.\
 And add a ⭐ if you like 😉​.
 
