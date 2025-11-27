@@ -7,7 +7,7 @@ And add a ⭐ if you like 😉​.
 **[English] Introduction**\
 Refers to [A011541 OEIS sequence](https://oeis.org/A011541).\
 See also [Boyer's site](http://www.christianboyer.com/taxicab/) and [Boyer's 2008 PDF paper](http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf) (or [archive]( https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf)).\
-See also [Po-Chi Su's 2016 paper](https://emis.de/ft/4071)
+See also [Po-Chi Su's 2016 paper](https://emis.de/ft/4071).
 
 Taxicab(n) - or Ta(n) or T(n) or T(n, 1) or Taxicab(**3**, n, n) - is the smallest number expressible as a sum of two positive **cubes** in n different ways.\
 For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> list, as BTa(n) described in OEIS sequence.
