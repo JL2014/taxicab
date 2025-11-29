@@ -47,7 +47,7 @@ Ta(n) <= BTa(n) = (w - v)³ + (v + w)³
 * [taxicab_r](https://github.com/JL2014/taxicab/blob/main/taxicab_r.txt) contains r values
 * [taxicab_s](https://github.com/JL2014/taxicab/blob/main/taxicab_s.txt) contains s values
 
-**[French]**\
+**[French] Introduction**\
 Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
 Le plus petit nombre Ta(n) qui est la somme de 2 cubes entiers positifs x<sub>(n, i)</sub> et y<sub>(n, i)</sub> de n façons, soit Ta(n) = x<sub>(n, i)</sub>^3 + y<sub>(n, i)</sub>^3 (pour i allant de 1 à n).\
 Pour n > 6, BTa(n) indique la limite supérieure de Ta(n).\
