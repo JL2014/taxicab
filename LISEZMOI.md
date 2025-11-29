@@ -1,7 +1,9 @@
 # Nombres Taxicab, limites supérieures (majorants) et leurs décompositions
 
-Pour un affichage optimal du contenu des fichiers sur GitHub, décocher « Wrap lines (under View options) » dans le menu « ... (More file actions) ».
-N'hésitez pas à ouvrir une _issue_ si vous souhaitez en discuter.
+Également disponible: [english version](https://github.com/JL2014/taxicab/blob/main/README.md)
+
+Pour un affichage optimal du contenu des fichiers sur GitHub, décocher « Wrap lines (under View options) » dans le menu « ... (More file actions) ».\
+N'hésitez pas à ouvrir une _issue_ si vous souhaitez en discuter.\
 Et ajoutez une ⭐ si vous appréciez 😉.
 
 **Introduction**\
