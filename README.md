@@ -5,6 +5,7 @@ Feel free to open an issue if you wish to discuss.\
 And add a ⭐ if you like 😉​.
 
 **[English] Introduction**\
+Details on [wikipedia](https://en.wikipedia.org/wiki/Taxicab_number).\
 Refers to [A011541 OEIS sequence](https://oeis.org/A011541).\
 See also [Boyer's site](http://www.christianboyer.com/taxicab/) and [Boyer's 2008 PDF paper](http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf) (or [archive]( https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf)).\
 See also [Po-Chi Su's 2016 PDF paper](https://emis.de/ft/4071).
