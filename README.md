@@ -2,7 +2,7 @@
 
 Also avalaible: [french version](https://github.com/JL2014/taxicab/blob/main/LISEZMOI.md)
 
-For optimal display when display file content on Github, uncheck "Wrap lines (under View options)" from the "... (More file actions)" menu.\
+For optimal display when display file content on Github, uncheck "Wrap lines (under _View options_)" from the "... (_More file actions_)" menu.\
 Feel free to open an issue if you wish to discuss.\
 And add a ⭐ if you like 😉​.
 
