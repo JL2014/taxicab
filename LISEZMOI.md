@@ -13,7 +13,7 @@ Voir aussi [le site de C. Boyer](http://www.christianboyer.com/taxicab/) et [son
 Voir aussi [l'article de 2016 de Po-Chi Su en PDF](https://emis.de/ft/4071).
 
 Taxicab(n) - ou Ta(n) ou T(n) ou T(n, 1) ou Taxicab(**3**, n, n) - est le plus petit nombre pouvant s'exprimer comme somme de deux **cubes** positifs x<sub>(n, i)</sub> et y<sub>(n, i)</sub> de n manières différentes (décompositions); soit Ta(n) = x<sub>(n, i)</sub>^3 + y<sub>(n, i)</sub>^3 (pour i allant de 1 à n).\
-Pour n > 6, comme décrit dans l'article de Boyer, il existe une liste de <ins>bornes supérieures<ins> (majorants), BTa(n) indique la limite supérieure de Ta(n).
+Pour n > 6, comme décrit dans l'article de Boyer, il existe une liste de <ins>bornes supérieures</ins> (majorants), BTa(n) indique la limite supérieure de Ta(n).
 
 > Ta(n) <= BTa(n) = r * s, avec r < s\
  r = x + y = sqrt(3xy + s), avec x < y\
