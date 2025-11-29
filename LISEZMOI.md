@@ -3,7 +3,7 @@
 Également disponible: [version anglaise](https://github.com/JL2014/taxicab/blob/main/README.md)
 
 Pour un affichage optimal du contenu des fichiers sur GitHub, décocher « Wrap lines (sous _View options_) » dans le menu « ... (_More file actions_) ».\
-N'hésitez pas à ouvrir une _issue_ si vous souhaitez en discuter.\
+N'hésitez pas à ouvrir une _issue_ si vous souhaitez discuter.\
 Et ajoutez une ⭐ si vous appréciez 😉.
 
 **Introduction**\
