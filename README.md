@@ -1,10 +1,12 @@
 # Taxicab numbers, upper bounds and their decomposition
 
+Also avalaible: [french version](https://github.com/JL2014/taxicab/blob/main/LISEZMOI.md)
+
 For optimal display when display file content on Github, uncheck "Wrap lines (under View options)" from the "... (More file actions)" menu.\
 Feel free to open an issue if you wish to discuss.\
 And add a ⭐ if you like 😉​.
 
-**[English] Introduction**\
+**Introduction**\
 Details on [wikipedia](https://en.wikipedia.org/wiki/Taxicab_number).\
 Refers to [A011541 OEIS sequence](https://oeis.org/A011541).\
 See also [Boyer's site](http://www.christianboyer.com/taxicab/) and [Boyer's 2008 PDF paper](http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf) (or [archive]( https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf)).\
@@ -38,7 +40,7 @@ else (if x and y are both even or are both odd)
 v = (y - x) / 2 = y - w = sqrt(delta_a) / 6\
 Ta(n) <= BTa(n) = (w - v)³ + (v + w)³
 
-**[English] Decomposition of Ta(n) or BTa(n)**
+**Decomposition of Ta(n) or BTa(n)**
 
 * [source code](https://github.com/JL2014/taxicab/blob/main/taxicab.cpp) contains all {x,y} values with {r,s} and delta_a components for checking matches
 * [text output of the program execution](https://github.com/JL2014/taxicab/blob/main/taxicab.txt) shows if values are correct
@@ -47,20 +49,7 @@ Ta(n) <= BTa(n) = (w - v)³ + (v + w)³
 * [taxicab_r](https://github.com/JL2014/taxicab/blob/main/taxicab_r.txt) contains r values
 * [taxicab_s](https://github.com/JL2014/taxicab/blob/main/taxicab_s.txt) contains s values
 
-**[French] Introduction**\
-Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
-Le plus petit nombre Ta(n) qui est la somme de 2 cubes entiers positifs x<sub>(n, i)</sub> et y<sub>(n, i)</sub> de n façons, soit Ta(n) = x<sub>(n, i)</sub>^3 + y<sub>(n, i)</sub>^3 (pour i allant de 1 à n).\
-Pour n > 6, BTa(n) indique la limite supérieure de Ta(n).\
-On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution non-primitive (avec k > 1) pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
-
-**[French] Remarques**
-- La valeur de x<sub>(n+1, 1)</sub> est supérieure (ou égale pour n=1) à celle de y<sub>(n, 1)</sub>
-- Si on multiplie les {x<sub>(5, i)</sub>, y<sub>(5, i)</sub>} par **79** ou **139** ou un multiple de 79 ou un multiple de 139, on obtient un multiple de T(6)
-- Certains x<sub>(n, i)</sub> ont une différence multiple de **11**: {1,12}, {414,436}, {331954,365757}, {27093208,28906206}
-  - de même pour: {255,167}, {13322,2421}, {231518,38787}, {26590452,582162}
-- Sauf pour T(1), il y a plusieurs x<sub>(n, i)</sub> multiples de **3** mais on peut constater un couple de x<sub>(n, i)</sub> (espacés de 2 termes) multiples de **3** (et donc leur différence aussi): {9,12}, {228,423}, {10200,18072}, {221424,336588}, {1766742096,2685635652}
-
-**[English] Relationships**
+**Relationships**
 
 - BTa(24) <= 381489286124430409319768596454988766303873589432584556125228221326120950488322054793438654594075836788861479033831645270800877473265863391069226260470316824340088274129522154177976000000000
 
