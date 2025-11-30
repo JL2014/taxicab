@@ -1,4 +1,4 @@
-// g++ -O3 -o taxicab taxicab.cpp `pkg-config --cflags --libs flint` && ./taxicab
+// g++ taxicab.cpp -o taxicab -O3 `pkg-config --cflags --libs flint` && ./taxicab
 
 #include <iostream>
 #include <iomanip>
