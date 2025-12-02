@@ -8,7 +8,7 @@ Et ajoutez une ⭐ si vous appréciez 😉.
 
 **Introduction**\
 Détails sur [wikipedia](https://fr.wikipedia.org/wiki/Nombre_taxicab).\
-Se référer à la [séquence OEIS A011541](https://oeis.org/A011541).\
+Se référer à la [séquence OEIS A011541](https://oeis.org/A011541) et la [séquence OEIS A001235](https://oeis.org/A001235) pour les solutions non primitives.\
 Voir aussi [le site de C. Boyer](http://www.christianboyer.com/taxicab/) et [son article de 2008 en PDF](http://www.christianboyer.com/taxicab/TaxicabUpperBounds.pdf) (ou [archive]( https://cs.uwaterloo.ca/journals/JIS/VOL11/Boyer/boyer-new.pdf)).\
 Voir aussi [l'article de 2016 de Po-Chi Su en PDF](https://emis.de/ft/4071).
 
@@ -185,7 +185,7 @@ Ta(n) <= BTa(n) = (w - v)³ + (v + w)³
 
 - Ta(1) = 2
 
-**Autres solutions non-primitive**
+**Autres solutions non primitives**
 
 On pourra également utiliser la notation T(n, k) pour la k-ième plus petite solution non-primitive (avec k > 1) pouvant s'écrire de n manières comme une somme de deux cubes d'entiers positifs.
 
