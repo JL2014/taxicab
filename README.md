@@ -25,8 +25,6 @@ For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> lis
  xy = (r² - s) / 3\
  y - x = sqrt(delta_a) / 3 = sqrt(delta_b)
 
-We can see also that delta_b + x = y !
-
 Note that s can also be written: s = (y - x)² + x * y\
 then for each {x,y}, Ta(n) = sum * ( (diff)² + product ).
 
