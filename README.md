@@ -27,7 +27,7 @@ For n > 6, as described in Boyer's paper, there is an <ins>upper bound</ins> lis
 
 Note that s can also be written: s = (y - x)² + x * y\
 then for each {x,y}, Ta(n) = sum * ( (diff)² + product )\
-and s = r³ - 3xyr then sum² - diff² = 4 * product
+and Ta(n) = r³ - 3xyr then sum² - diff² = 4 * product
 
 Let x<sub>(n, i)</sub> and y<sub>(n, i)</sub> denote the i th x and y for BTa(n) or Ta(n).
 
